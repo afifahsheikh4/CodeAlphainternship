@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidecar — Music Player</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="player-wrap">
+    <p class="eyebrow">NO. 04 · SIDECAR PLAYER</p>
+
+    <div class="player">
+      <div class="deck">
+        <div class="record" id="record">
+          <div class="record-label">
+            <span id="labelTitle">Sunrise Drive</span>
+          </div>
+        </div>
+        <div class="tonearm" id="tonearm"></div>
+      </div>
+
+      <div class="deck-info">
+        <h2 id="trackTitle">Sunrise Drive</h2>
+        <p id="trackArtist">Northbound Collective</p>
+
+        <div class="progress-row">
+          <span id="timeCurrent">0:00</span>
+          <input type="range" id="seek" class="seek" min="0" max="100" value="0" step="0.1">
+          <span id="timeDuration">0:00</span>
+        </div>
+
+        <div class="controls">
+          <button id="prevBtn" class="ctrl-btn" aria-label="Previous track">⏮</button>
+          <button id="playBtn" class="ctrl-btn ctrl-play" aria-label="Play">▶</button>
+          <button id="nextBtn" class="ctrl-btn" aria-label="Next track">⏭</button>
+
+          <div class="volume-row">
+            <span class="vol-icon">🔊</span>
+            <input type="range" id="volume" class="volume" min="0" max="100" value="70">
+          </div>
+
+          <button id="shuffleBtn" class="ctrl-btn ctrl-toggle" aria-label="Toggle shuffle">⤨</button>
+          <button id="loopBtn" class="ctrl-btn ctrl-toggle" aria-label="Toggle loop">↻</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="playlist" id="playlist">
+      <p class="playlist-title">Playlist</p>
+      <ul id="playlistItems"></ul>
+    </div>
+
+    <div class="spotify-panel">
+      <p class="playlist-title">Play from Spotify</p>
+      <p class="spotify-help">
+        Paste a link to any song, album, or playlist from the Spotify app or spotify.com —
+        works with a free account, no subscription needed.
+      </p>
+      <form id="spotifyForm" class="spotify-form">
+        <input
+          type="url"
+          id="spotifyInput"
+          placeholder="https://open.spotify.com/track/..."
+          autocomplete="off"
+          required
+        >
+        <button type="submit">Load</button>
+      </form>
+      <p id="spotifyError" class="spotify-error"></p>
+      <div id="spotifyEmbedWrap" class="spotify-embed-wrap"></div>
+    </div>
+  </main>
+
+  <audio id="audio" preload="metadata"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

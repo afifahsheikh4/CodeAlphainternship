@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Sheet — Image Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-head">
+    <p class="eyebrow">COLLECTION NO. 01</p>
+    <h1>Contact Sheet</h1>
+    <p class="sub">A running archive of frames — sorted, not curated.</p>
+  </header>
+
+  <nav class="filters" id="filters">
+    <button class="filter-btn is-active" data-filter="all">All Frames <span>24</span></button>
+    <button class="filter-btn" data-filter="nature">Nature</button>
+    <button class="filter-btn" data-filter="urban">Urban</button>
+    <button class="filter-btn" data-filter="portrait">Portrait</button>
+    <button class="filter-btn" data-filter="abstract">Abstract</button>
+  </nav>
+
+  <main class="sheet" id="sheet"></main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+    <figure class="lb-figure">
+      <div class="lb-frame">
+        <img id="lbImage" src="" alt="">
+      </div>
+      <figcaption>
+        <span id="lbCaption"></span>
+        <span class="lb-count" id="lbCount"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">›</button>
+  </div>
+
+  <footer class="site-foot">
+    <p>Task 1 · Image Gallery — built with HTML, CSS &amp; JavaScript for CodeAlpha</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
