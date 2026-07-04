@@ -1,4 +1,4 @@
-### 🖼️ Contact Sheet — Image Gallery
+### 🖼️ 1- Contact Sheet — Image Gallery
 
 A filterable image gallery built for the CodeAlpha Frontend Development Internship (Task 1). Designed to feel like flipping through a photographer's contact sheet rather than a generic grid — category filters, hover reveals, and a full lightbox with keyboard navigation.
 
@@ -60,7 +60,7 @@ Built as part of the CodeAlpha Frontend Development Internship — Task 1.
 
 
 
-#### 🧮 Ledger — Calculator
+#### 🧮 2- Ledger — Calculator
 
 A keyboard-friendly calculator built for the CodeAlpha Frontend Development Internship (Task 2). Styled like a warm, brass instrument panel rather than a flat default calculator UI.
 
@@ -122,7 +122,7 @@ Built as part of the CodeAlpha Frontend Development Internship — Task 2.
 
 
 
-#### 📁 Afifah Sheikh — Portfolio Site
+#### 📁 3- Afifah Sheikh — Portfolio Site
 
 A personal portfolio built for the CodeAlpha Frontend Development Internship (Task 3), showcasing education, projects, skills, and accomplishments.
 
@@ -189,21 +189,13 @@ Add a dark/light theme toggle
 Add a blog or case-study section for deeper project write-ups
 Add form-based contact instead of a mailto link
 
-
-Author
-
-Afifah Sheikh
-📧 afifahsheikh4@gmail.com
-🔗 LinkedIn · GitHub
-
-
 Built as part of the CodeAlpha Frontend Development Internship — Task 3.
 
 
 
 
 
-### 🎵 Sidecar — Music Player
+### 🎵 4- Sidecar — Music Player
 
 A vinyl-inspired music player built for the CodeAlpha Frontend Development Internship (Task 4), with a custom JavaScript audio player and an optional panel for embedding any song directly from Spotify.
 
@@ -275,13 +267,6 @@ Possible Improvements
 Add a search bar that uses the Spotify Web API (Client Credentials flow) to look up tracks and auto-fill the link
 Add drag-and-drop reordering for the custom playlist
 Persist volume/shuffle/loop preferences between sessions
-
-
-Author
-
-Afifah Sheikh
-📧 afifahsheikh4@gmail.com
-🔗 LinkedIn · GitHub
 
 
 Built as part of the CodeAlpha Frontend Development Internship — Task 4.
