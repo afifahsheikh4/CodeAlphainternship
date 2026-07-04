@@ -1,4 +1,4 @@
-🖼️ Contact Sheet — Image Gallery
+### 🖼️ Contact Sheet — Image Gallery
 
 A filterable image gallery built for the CodeAlpha Frontend Development Internship (Task 1). Designed to feel like flipping through a photographer's contact sheet rather than a generic grid — category filters, hover reveals, and a full lightbox with keyboard navigation.
 
@@ -54,19 +54,13 @@ Swap the placeholder photos (via picsum.photos) for real project photography
 Add pinch-to-zoom on mobile
 Add a masonry layout option
 
-
-Author
-
-Afifah Sheikh
-📧 afifahsheikh4@gmail.com
-🔗 LinkedIn · GitHub
-
-
 Built as part of the CodeAlpha Frontend Development Internship — Task 1.
 
 
 
-🧮 Ledger — Calculator
+
+
+#### 🧮 Ledger — Calculator
 
 A keyboard-friendly calculator built for the CodeAlpha Frontend Development Internship (Task 2). Styled like a warm, brass instrument panel rather than a flat default calculator UI.
 
@@ -124,18 +118,11 @@ Add a history log of previous calculations
 Add scientific mode (sin, cos, sqrt, etc.)
 
 
-Author
-
-Afifah Sheikh
-📧 afifahsheikh4@gmail.com
-🔗 LinkedIn · GitHub
-
-
 Built as part of the CodeAlpha Frontend Development Internship — Task 2.
 
 
 
-📁 Afifah Sheikh — Portfolio Site
+#### 📁 Afifah Sheikh — Portfolio Site
 
 A personal portfolio built for the CodeAlpha Frontend Development Internship (Task 3), showcasing education, projects, skills, and accomplishments.
 
@@ -216,7 +203,7 @@ Built as part of the CodeAlpha Frontend Development Internship — Task 3.
 
 
 
-🎵 Sidecar — Music Player
+### 🎵 Sidecar — Music Player
 
 A vinyl-inspired music player built for the CodeAlpha Frontend Development Internship (Task 4), with a custom JavaScript audio player and an optional panel for embedding any song directly from Spotify.
 
